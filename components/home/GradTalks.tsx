@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, ExternalLink } from "lucide-react";
-import { getYouTubeWatchUrl, gradTalks } from "@/components/talks/data";
+import { getYouTubeWatchUrl, gradTalks } from "@/data/talks";
 import YouTubeEmbed from "@/components/talks/YouTubeEmbed";
 import ShareTalkButton from "@/components/talks/ShareTalkButton";
 

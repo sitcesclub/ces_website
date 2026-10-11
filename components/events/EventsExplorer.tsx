@@ -3,7 +3,7 @@
 import { useState } from "react";
 import EventCard from "./EventCard";
 import { mouseGlow, glowOverlay } from "@/lib/mouseGlow";
-import type { EventItem } from "./data";
+import type { EventItem } from "@/data/events";
 
 function SectionHeader({
   kicker,

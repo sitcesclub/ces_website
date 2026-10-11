@@ -2,7 +2,7 @@
 
 import { useRef, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
-import type { MemberGroup } from "./members-data";
+import type { MemberGroup } from "@/data/members";
 import MemberCard from "./MemberCard";
 
 interface MemberAccordionProps {

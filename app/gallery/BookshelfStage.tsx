@@ -1,6 +1,6 @@
 "use client";
 
-import type { BookCategory } from "./galleryData";
+import type { BookCategory } from "@/data/gallery";
 import GalleryBook from "./GalleryBook";
 
 interface BookshelfStageProps {

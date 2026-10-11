@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import type { Member } from "./members-data";
+import type { Member } from "@/data/members";
 
 interface MemberCardProps {
   member: Member;

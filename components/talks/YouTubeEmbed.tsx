@@ -1,4 +1,4 @@
-import { getYouTubeEmbedUrl, type GradTalk } from "@/components/talks/data";
+import { getYouTubeEmbedUrl, type GradTalk } from "@/data/talks";
 
 export default function YouTubeEmbed({ talk, loading = "lazy" }: { talk: GradTalk; loading?: "eager" | "lazy" }) {
   return (

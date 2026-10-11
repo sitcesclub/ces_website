@@ -1,5 +1,5 @@
 import { Play } from "lucide-react";
-import type { LeaderMessage } from "./data";
+import type { LeaderMessage } from "@/data/vision";
 
 export default function MessageCard({ leader }: { leader: LeaderMessage }) {
   return (

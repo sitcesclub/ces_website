@@ -1,4 +1,4 @@
-import { journey } from "./data";
+import { journey } from "@/data/vision";
 
 export default function JourneySection() {
   return (

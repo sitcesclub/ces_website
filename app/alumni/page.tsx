@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import MemberCard from "@/components/members/MemberCard";
-import { alumniMembers } from "@/components/members/members-data";
+import { alumniMembers } from "@/data/members";
 
 export const metadata: Metadata = {
   title: "Alumni | Computer Engineers' Society",

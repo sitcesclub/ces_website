@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Image from "next/image";
-import type { BookCategory } from "./galleryData";
+import type { BookCategory } from "@/data/gallery";
 
 interface BookPreviewModalProps {
   category: BookCategory;

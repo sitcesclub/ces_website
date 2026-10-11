@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
-import type { BookCategory, GalleryPhoto } from "./galleryData";
+import type { BookCategory, GalleryPhoto } from "@/data/gallery";
 
 export interface CategoryPhotoItem {
   photo: GalleryPhoto;

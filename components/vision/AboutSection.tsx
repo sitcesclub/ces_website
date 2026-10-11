@@ -1,4 +1,4 @@
-import { aboutContent } from "./data";
+import { aboutContent } from "@/data/vision";
 
 export default function AboutSection() {
   return (
