@@ -1,4 +1,4 @@
-import { gradTalks } from "@/components/talks/data";
+import { gradTalks } from "@/data/talks";
 import YouTubeEmbed from "@/components/talks/YouTubeEmbed";
 
 export default function TalksPage() {

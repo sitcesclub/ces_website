@@ -5,7 +5,7 @@ import {
   galleryCategories,
   type BookCategory,
   type GalleryPhoto,
-} from "./galleryData";
+} from "@/data/gallery";
 import GalleryHero from "./GalleryHero";
 import BookshelfStage from "./BookshelfStage";
 import CategoryPhotoGallery, {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { categoryColors, type EventItem } from "./data";
+import { categoryColors, type EventItem } from "@/data/events";
 import { mouseGlow, glowOverlay } from "@/lib/mouseGlow";
 
 function CalendarIcon() {

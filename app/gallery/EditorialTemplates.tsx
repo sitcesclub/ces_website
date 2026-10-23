@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import type { GalleryEvent, GalleryPhoto } from "./galleryData";
+import type { GalleryEvent, GalleryPhoto } from "@/data/gallery";
 
 interface AlbumPageProps {
   event: GalleryEvent;

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { mascotContent } from "./data";
+import { mascotContent } from "@/data/vision";
 
 export default function MascotCard() {
   return (

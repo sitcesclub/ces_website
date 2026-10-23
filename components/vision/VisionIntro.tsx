@@ -1,5 +1,5 @@
 import MascotCard from "./MascotCard";
-import { visionContent } from "./data";
+import { visionContent } from "@/data/vision";
 
 export default function VisionIntro() {
   return (

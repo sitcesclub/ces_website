@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useCallback } from "react";
-import type { BookCategory, GalleryPhoto } from "./galleryData";
+import type { BookCategory, GalleryPhoto } from "@/data/gallery";
 import AlbumEventSpread from "./EditorialTemplates";
 
 interface OpenBookSpreadProps {

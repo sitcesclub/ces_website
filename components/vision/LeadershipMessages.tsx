@@ -1,5 +1,5 @@
 import MessageCard from "./MessageCard";
-import { leaderMessages } from "./data";
+import { leaderMessages } from "@/data/vision";
 
 export default function LeadershipMessages() {
   return (

@@ -5,7 +5,7 @@ import {
   categories,
   pastEvents,
   upcomingEvents,
-} from "@/components/events/data";
+} from "@/data/events";
 
 export const metadata: Metadata = {
   title: "Events | Computer Engineers' Society",

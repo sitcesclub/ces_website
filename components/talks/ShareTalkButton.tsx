@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Check, Share2 } from "lucide-react";
-import { getYouTubeWatchUrl, type GradTalk } from "@/components/talks/data";
+import { getYouTubeWatchUrl, type GradTalk } from "@/data/talks";
 
 export default function ShareTalkButton({ talk }: { talk: GradTalk }) {
   const [status, setStatus] = useState<"idle" | "shared" | "copied" | "manual">("idle");

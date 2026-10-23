@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { pastEvents, categoryColors } from "@/components/events/data";
+import { pastEvents, categoryColors } from "@/data/events";
 
 export function generateStaticParams() {
   return pastEvents.map((event) => ({ id: event.id }));

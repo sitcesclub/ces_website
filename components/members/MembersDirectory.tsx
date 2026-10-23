@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { memberGroups } from "./members-data";
+import { memberGroups } from "@/data/members";
 import MemberAccordion from "./MemberAccordion";
 
 export default function MembersDirectory() {
