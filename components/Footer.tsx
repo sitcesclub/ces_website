@@ -176,8 +176,8 @@ export default function Footer() {
               </li>
               <li className="group flex flex-col items-center sm:items-start">
                 <strong className="text-[10px] text-[#5C6D8A] tracking-[0.1em] uppercase block mb-1">Phone</strong>
-                <a href="tel:+919434344744" className="text-[#F0F4F8] hover:text-[#F4B41A] active:scale-95 active:text-[#F4B41A]/80 origin-center sm:origin-left transition-all duration-200 inline-block">
-                  +91-9434344744
+                <a href="tel:+919472002938" className="text-[#F0F4F8] hover:text-[#F4B41A] active:scale-95 active:text-[#F4B41A]/80 origin-center sm:origin-left transition-all duration-200 inline-block">
+                  +91-9472002938
                 </a>
               </li>
               <li className="flex flex-col items-center sm:items-start">
