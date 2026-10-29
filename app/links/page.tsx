@@ -52,7 +52,7 @@ export default function LinksPage() {
                 </ul>
             </nav>
 
-            <footer>© {new Date().getFullYear()} Computer Engineers&apos; Society</footer>
+            <footer>© 2026 Computer Engineers&apos; Society</footer>
         </main>
     );
 }
