@@ -7,7 +7,7 @@ import MemberAccordion from "./MemberAccordion";
 export default function MembersDirectory() {
   // Multi-open accordion state: Senior Associate Members open by default
   const [openGroupIds, setOpenGroupIds] = useState<Set<string>>(
-    () => new Set(["senior-associates"])
+    () => new Set(["senior-associates", "associates", "junior-associates"])
   );
 
   // Track open session generation per group to reset card flip state on reopen

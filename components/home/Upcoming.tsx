@@ -2,25 +2,25 @@
 
 import type { CSSProperties } from "react";
 import Link from "next/link";
-import { mouseGlow, glowOverlay } from "@/lib/mouseGlow";
+// import { mouseGlow, glowOverlay } from "@/lib/mouseGlow";
 
 const upcomingEvents = [
   {
     number: "01",
-    date: "26",
-    month: "SEP",
+    date: "07",
+    month: "NOV",
     year: "2026",
     title: "Roadmap to Programming 3.0",
-    desc: "Interactive technical bootcamp for first-year students.",
+    desc: "Interactive technical bootcamp for all students.",
     status: "Registration Open",
   },
   {
     number: "02",
-    date: "02",
-    month: "OCT",
+    date: "18",
+    month: "NOV",
     year: "2026",
-    title: "30 Days Programming Challenge",
-    desc: "Daily algorithmic problem-solving sprint.",
+    title: "Quiz-o-Mania",
+    desc: "Compile your thoughts. Execute your answers.",
     status: "Coming Soon",
   },
 ];
@@ -193,7 +193,7 @@ export default function Upcoming() {
                 <article
                   key={event.title}
                   className="group relative transition-transform duration-300 hover:-translate-y-1.5"
-                  onMouseMove={mouseGlow}
+                  // onMouseMove={mouseGlow}
                   style={{ "--glow-rgb": "232,201,119" } as CSSProperties}
                 >
 
@@ -867,7 +867,7 @@ export default function Upcoming() {
                   </div>
 
                   {/* Cursor spotlight (warm) */}
-                  <div className={glowOverlay} />
+                  {/* <div className={glowOverlay} /> */}
 
                 </article>
 
