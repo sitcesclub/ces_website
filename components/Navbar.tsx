@@ -14,6 +14,7 @@ export default function Navbar() {
     "Achievements",
     "Vision",
     "Talks",
+    "Gallery",
     "Alumni",
   ];
 
@@ -21,6 +22,7 @@ export default function Navbar() {
     if (link === "Home") return "/";
     if (link === "Events") return "/events";
     if (link === "Achievements") return "/achievements";
+    if (link === "Gallery") return "/gallery";
     return `/${link.toLowerCase()}`;
   };
 
